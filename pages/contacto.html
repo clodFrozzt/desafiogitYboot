@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Alltoke</title>
+</head>
+<body>
+    <header>
+        <!--menu-->        
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container" margin="20px">
+              <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg"  alt="Alltoque" class=" img col-3 col-lg-5"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end w-max-100">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/quienes_somos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/combos.html">Combos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/trabajos.html">Trabajos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section id="descripcion">
+        <h1 class="paginasInteriores">Contacto</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas praesentium ipsam, suscipit, facilis tenetur explicabo odit recusandae quia delectus debitis necessitatibus laborum a nemo ullam dolores voluptatibus quam cumque assumenda, amet earum consequuntur ad eligendi quod! Quia in reiciendis, officia distinctio id eos nihil placeat tempora mollitia, repellat deserunt reprehenderit excepturi quis quibusdam incidunt officiis quos veritatis? Ullam, dolorem. Ea reiciendis officia porro cupiditate, dolore quod voluptate, a id dolores temporibus, suscipit laborum corrupti eos amet neque impedit esse veniam et quaerat consequuntur! Porro minima placeat facere quibusdam enim harum dolorum quidem architecto reiciendis ab distinctio repudiandae, perspiciatis quisquam possimus!
+        </p>
+        <img src="../images\3d6fb6923e3558277ffef2af110157b8f8a2e4ac_s2_n2 (1).jpg" alt="trabajando" width="1000">
+    </section>
+    <!--formulario-->
+    <section id="formulario">
+        <form class="bodes" action="gracias_contacto.php" method="get" enctype="application/x-www-form-urlencoded">
+            <input id="Nombrre" type="name" placeholder="Nombre">
+            <input id="Email" type="email" placeholder="Email">
+            <input id="numero telefonico" type="number" placeholder="numero telefonico">
+            <select id="talla"  name="Talla">
+                <option value="starter" hidden="Talla">servicio</option>
+                <option value="Gráfica">Gráfica</option>
+                <option value="Motions">Motions</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Digital">Digital</option>
+            </select>
+            <label id="comentario">
+                <textarea name="comentario" placeholder="comentario"></textarea>
+            </label>
+            <div id="aceptar condiciones">aceptas condiciones</div>
+            <input type="radio" name="condiciones" value="si">
+            <div id="aceptas que te contactemos por telefono">aceptas que te contactemos por telefono</div>
+            <input type="radio" name="llamada telefonica" value="si">
+            <input type="submit" value="enviar formulario">
+            <input type="reset" value="borrar">
+        </form>
+    </section>
+    <!--footer-->
+    <footer>
+        <section>
+            <ul>
+                <a href="../index.html#banner1"><img src="../images/logo.jpg" width="100" alt="logo"></a>
+                <li><a href="https://www.facebook.com/xclaud.nerdcore/"><img src="../images/facebook.png" width="30 px" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/sclaudfrost/"><img src="../images/instagram.png" width="30 px" alt="Instagram"></a></li>
+            </ul>
+            <hr>
+            <p class="colorFooter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut molestias rerum 
+                ullam atque debitis mollitia quia corrupti. Dignissimos ratione quasi fuga, 
+                velit tenetur nisi magni.</p>  
+        </section>
+    </footer>
+</body>
+</html>    
